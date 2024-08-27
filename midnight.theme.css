@@ -20,22 +20,22 @@
 	--font: 'figtree';
 
 	/* top left corner text */
-	--corner-text: 'Midnight';
+	--corner-text: 'vencord';
 
 	/* color of status indicators and window controls */
-	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
-	--dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
-	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
-	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
+	--online-indicator: hsl(120, 50%, 50%); /* change to #23a55a for default green */
+	--dnd-indicator: hsl(12, 80%, 50%); /* change to #f13f43 for default red */
+	--idle-indicator: hsl(48, 90%, 50%); /* change to #f0b232 for default yellow */
+	--streaming-indicator: hsl(276, 70%, 65%); /* change to #593695 for default purple */
 
 	/* accent colors */
-	--accent-1: hsl(190, 70%, 60%); /* links */
-	--accent-2: hsl(190, 70%, 48%); /* general unread/mention elements */
-	--accent-3: hsl(190, 70%, 42%); /* accent buttons */
-	--accent-4: hsl(190, 70%, 36%); /* accent buttons when hovered */
-	--accent-5: hsl(190, 70%, 30%); /* accent buttons when clicked */
-	--mention: hsla(190, 80%, 52%, 0.1); /* mentions & mention messages */
-	--mention-hover: hsla(190, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
+	--accent-1: hsl(345, 90%, 80%); /* links */
+	--accent-2: hsl(345, 90%, 80%); /* general unread/mention elements */
+	--accent-3: hsl(345, 25%, 80%); /* accent buttons */
+	--accent-4: hsl(345, 45%, 80%); /* accent buttons when hovered */
+	--accent-5: hsl(345, 65%, 80%); /* accent buttons when clicked */
+	--mention: hsla(345, 90%, 80%, 0.1); /* mentions & mention messages */
+	--mention-hover: hsla(345, 90%, 80%, 0.05); /* mentions & mention messages when hovered */
 
 	/* text colors */
 	--text-0: white; /* text on colored elements */
